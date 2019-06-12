@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:background="@drawable/linearlayout_shape"
+        android:layout_margin="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="match_parent">
+            <Button
+                android:id="@+id/cancel1"
+                android:background="#ffffff"
+                android:text="取消"
+                android:layout_marginLeft="10dp"
+                android:textSize="20dp"
+                android:layout_width="50dp"
+                android:layout_height="match_parent" />
+            <Button
+                android:id="@+id/queding1"
+                android:background="#ffffff"
+                android:text="确定"
+                android:layout_marginLeft="220dp"
+                android:textSize="20dp"
+                android:layout_width="50dp"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+
+        <View android:layout_height="1px"
+            android:background="#ebe6e6"
+            android:layout_marginTop="20dp"
+            android:layout_width="fill_parent"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                android:text="星期"
+                android:textSize="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+            <LinearLayout
+                android:layout_marginBottom="50dp"
+                android:layout_marginTop="50dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <Button
+                    android:id="@+id/zhouri"
+                    android:layout_marginLeft="30dp"
+                    android:background="@drawable/btn_normal"
+                    android:text="日"
+                    android:textColor="#ffffff"
+                    android:textSize="20dp"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp" />
+                <Button
+                    android:id="@+id/zhouyi"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/btn_press"
+                    android:text="一"
+                    android:textColor="#ffffff"
+                    android:textSize="20dp"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp" />
+                <Button
+                    android:id="@+id/zhouer"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/btn_press"
+                    android:text="二"
+                    android:textColor="#ffffff"
+                    android:textSize="20dp"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp" />
+                <Button
+                    android:id="@+id/zhousan"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/btn_press"
+                    android:text="三"
+                    android:textColor="#ffffff"
+                    android:textSize="20dp"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp" />
+                <Button
+                    android:layout_marginLeft="10dp"
+                    android:id="@+id/zhousi"
+                    android:background="@drawable/btn_press"
+                    android:text="四"
+                    android:textColor="#ffffff"
+                    android:textSize="20dp"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp" />
+                <Button
+                    android:id="@+id/zhouwu"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/btn_press"
+                    android:text="五"
+                    android:textColor="#ffffff"
+                    android:textSize="20dp"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp" />
+                <Button
+                    android:id="@+id/zhouliu"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/btn_normal"
+                    android:text="六"
+                    android:textColor="#ffffff"
+                    android:textSize="20dp"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

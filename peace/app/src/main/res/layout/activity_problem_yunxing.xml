@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".focusTotal.problem_yunxing"
+    android:orientation="vertical"
+    android:background="#ffffff">
+
+    <TextView
+        android:textSize="23sp"
+        android:text="1.平靜在我的设备上无法正常运行"
+        android:layout_marginLeft="20sp"
+        android:layout_marginTop="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:textSize="18sp"
+        android:text="在使用专注的过程中，计时发生中断："
+        android:layout_marginLeft="20sp"
+        android:layout_marginTop="30sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20sp"
+        android:layout_marginTop="20sp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/img"
+            android:layout_width="wrap_content"
+            android:layout_height="15sp"
+            android:src="@drawable/redpoint" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:gravity="top"
+            android:text="确认是否开启了‘沉浸模式’"
+            android:textSize="16sp" />
+    </LinearLayout>
+    <TextView
+        android:text="请在「专注」界面右上方「专注选项」内确认是否开启了「沉浸模式」，该模式下任何切换到其他 app 的行为都会导致专注失败。如果你希望专注过程中仍然使用其他 app，请关闭「沉浸模式」。"
+        android:textColor="#5E5B5B"
+        android:layout_marginLeft="20sp"
+        android:layout_marginTop="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:textSize="18sp"
+        android:text="在使用睡眠功能时，应用自动关闭"
+        android:layout_marginLeft="20sp"
+        android:layout_marginTop="30sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20sp"
+        android:layout_marginTop="20sp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="15sp"
+            android:src="@drawable/redpoint" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:gravity="top"
+            android:text="确认在使用平靜的同时，没有打开其他睡眠监测类或内存占用高的APP"
+            android:textSize="16sp" />
+    </LinearLayout>
+    <TextView
+        android:text="iOS 系统会在内存消耗过高时自动关闭部分 app 。因此，当使用平靜进行睡眠时，若其他内存占用高的应用（如游戏、视频、导航、电话、睡眠类 app 等）也同时进行，有较大概率会导致平靜被系统自动关闭。我们建议在使用平靜进行睡眠时，尽量减少其他内存占用高的 app 的使用。
+"
+        android:textColor="#5E5B5B"
+        android:layout_marginLeft="20sp"
+        android:layout_marginTop="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

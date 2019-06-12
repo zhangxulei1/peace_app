@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/nicheng"
+        android:textSize="25sp"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content" />
+    <Button
+        android:textColor="#ffffff"
+        android:text="更新"
+        android:background="@drawable/shape_update"
+        android:id="@+id/update"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="350dp"
+        android:layout_height="50dp" />
+</LinearLayout>

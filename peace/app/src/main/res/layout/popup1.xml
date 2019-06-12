@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:background="@drawable/linearlayout_shape"
+        android:layout_margin="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <TextView
+        android:textColor="#5B5B5B"
+        android:gravity="center"
+        android:text="确认要删除该提醒吗？"
+        android:textSize="15dp"
+        android:background="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="30dp" />
+    <Button
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/queding"
+        android:text="确认"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:textColor="#FF3030"
+        android:background="#ffffff"/>
+    <Button
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="取消"
+        android:id="@+id/cancel"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:textColor="#000000"
+        android:background="#ffffff"/>
+
+    </LinearLayout>
+    
+</RelativeLayout>

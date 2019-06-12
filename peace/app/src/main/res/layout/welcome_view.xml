@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_marginTop="80dp"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:src="@drawable/welcom_view_one"
+        android:id="@+id/iv"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="vertical"
+        android:layout_marginTop="100dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="在大自然中专注创造"
+            android:textColor="#ffffff"
+            android:id="@+id/tv1"
+            android:textSize="24dp"
+            android:textStyle="bold"
+            android:gravity="center_horizontal"/>
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="置身海边森林或雨天，来一场灵感风暴"
+            android:textColor="#ffffff"
+            android:layout_marginTop="5dp"
+            android:textSize="18dp"
+            android:gravity="center_horizontal"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
+
+
